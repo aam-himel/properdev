@@ -4,22 +4,35 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../../assets/img/logo_test.svg";
 const navigation = [
-  { name: "Product", href: "#" },
+  { name: "Why Us", href: "#" },
   { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "FAQ's", href: "#" },
+  { name: "Contact", href: "#" },
 ];
 
 export default function Navbar() {
   return (
-    <nav className="h-16 w-full bg-indigo-900">
-      <div>
-        <div className="">
-          <img className="h-16 w-auto" src={Logo} alt="logo" />
+    <div className=" w-full bg-purple-500 text-white border-b-2 shadow-md z-10">
+      <div className="h-20 py-2 flex items-center justify-between sm:max-w-screen-sm md:max-w-screen-md   lg:max-w-screen-xl mx-auto">
+        <div className="flex items-center">
+          {/* <img className="h-16" src={Logo} alt="logo" /> */}
+          <a href="/">
+            <span className="-ml-4 text-2xl font-bold">
+              Proper<span className="text-yellow-300">Dev</span>
+            </span>
+          </a>
         </div>
-        <div></div>
+        <nav className="flex space-x-10">
+          {navigation.map((navLink) => (
+            <a href={navLink.href}>{navLink.name}</a>
+          ))}
+        </nav>
+
+        <div className="py-2 px-12 bg-yellow-600 rounded-xl font-bold text-lg uppercase">
+          <a href="/login">Login</a>
+        </div>
       </div>
-    </nav>
+    </div>
   );
 }
 
