@@ -12,23 +12,23 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <div className=" w-full bg-purple-500 text-white border-b-2 shadow-md z-10">
+    <div className=" w-full text-gray-700 border-b-2 shadow-xs z-10">
       <div className="h-20 py-2 flex items-center justify-between sm:max-w-screen-sm md:max-w-screen-md   lg:max-w-screen-xl mx-auto">
         <div className="flex items-center">
           {/* <img className="h-16" src={Logo} alt="logo" /> */}
           <a href="/">
             <span className="-ml-4 text-2xl font-bold">
-              Proper<span className="text-yellow-300">Dev</span>
+              Proper<span className="text-yellow-600">Dev</span>
             </span>
           </a>
         </div>
-        <nav className="flex space-x-10">
+        <nav className="flex space-x-10 font-semibold">
           {navigation.map((navLink) => (
             <a href={navLink.href}>{navLink.name}</a>
           ))}
         </nav>
 
-        <div className="py-2 px-12 bg-yellow-600 rounded-xl font-bold text-lg uppercase">
+        <div className="py-3 px-12 bg-blue-800 text-white rounded font-bold text-lg uppercase">
           <a href="/login">Login</a>
         </div>
       </div>
