@@ -7,9 +7,9 @@ const HeroSection = () => {
     <>
       <section className="h-screen grid grid-cols-2 place-content-center place-items-center ">
         <div className="pl-12">
-          <h1 className="text-7xl font-bold">
+          <h1 className="text-7xl font-bold pr-10 capitalize">
             Track your{" "}
-            <span className="text-green-400 underline ">progress</span> and rich
+            <span className="text-green-400 underline ">progress,</span> reach
             to the
             <span className="text-red-400 underline"> top</span>
           </h1>
