@@ -12,12 +12,12 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <div className=" w-full text-gray-700 border-b-2 shadow-xs z-10">
-      <div className="h-20 py-2 flex items-center justify-between sm:max-w-screen-sm md:max-w-screen-md   lg:max-w-screen-xl mx-auto">
+    <div className="w-full text-gray-700 border-b-2 shadow-xs z-10">
+      <div className="h-20 py-2 flex items-center justify-between px-10">
         <div className="flex items-center">
           {/* <img className="h-16" src={Logo} alt="logo" /> */}
           <a href="/">
-            <span className="-ml-4 text-2xl font-bold">
+            <span className="text-2xl font-bold">
               Proper<span className="text-yellow-600">Dev</span>
             </span>
           </a>
