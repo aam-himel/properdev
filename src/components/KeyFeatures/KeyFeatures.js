@@ -6,9 +6,11 @@ import {
   LightningBoltIcon,
 } from "@heroicons/react/outline";
 
+import "./keyFeatures.css";
+
 const KeyFeatures = () => {
   return (
-    <section className="w-full py-20 px-10 bg-blue-100 ">
+    <section className="w-full py-20 px-10 keyFeatures">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 place-content-end">
         {/* left Section */}
         <div className="">

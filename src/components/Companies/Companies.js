@@ -1,11 +1,13 @@
 import React from "react";
-import googleIcon from "../../../assets/icons/google.svg";
-import slackIcon from "../../../assets/icons/slack.svg";
-import uberIcon from "../../../assets/icons/uber.svg";
-import samsungIcon from "../../../assets/icons/samsung.svg";
+import googleIcon from "../../assets/icons/google.svg";
+import slackIcon from "../../assets/icons/slack.svg";
+import uberIcon from "../../assets/icons/uber.svg";
+import samsungIcon from "../../assets/icons/samsung.svg";
+import "./Companies.css";
+
 const Companies = () => {
   return (
-    <section className="h-96 w-full bg-gray-900 flex flex-col items-center justify-center -mt-3 overflow-hidden ">
+    <section className="h-96 w-full bg-gray-900 flex flex-col items-center justify-center overflow-hidden company">
       <h1 className="text-gray-400 font-bold py-4 text-center md:py-8 text-2xl capitalize px-4">
         trusted by 100+ companies all over the world
       </h1>

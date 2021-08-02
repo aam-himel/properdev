@@ -1,11 +1,12 @@
 import React from "react";
 import CareerProgress from "../../assets/img/undraw_career_progress_ivdb.svg";
-import { Companies } from "./Companies";
+
+import "./Hero.css";
 
 const HeroSection = () => {
   return (
     <>
-      <section className="h-screen grid grid-cols-2 place-content-center place-items-center ">
+      <section className="h-screen grid grid-cols-2 place-content-center place-items-center hero">
         <div className="pl-12">
           <h1 className="text-7xl font-bold pr-10 capitalize">
             Track your{" "}
@@ -34,9 +35,9 @@ const HeroSection = () => {
             </a>
           </div>
         </div>
+        {/*  */}
         <div className="bg-hero-img h-screen w-full bg-cover bg-center rounded "></div>
       </section>
-      <Companies />
     </>
   );
 };
