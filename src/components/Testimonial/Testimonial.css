@@ -1,0 +1,14 @@
+.testimonial_card {
+    height: 500px;
+    width: 870px;
+    position: relative;
+}
+
+.slider-right {
+    position: absolute;
+    right: -30px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(56, 56, 179);
+}
+
