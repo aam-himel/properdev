@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Footer } from "../components/Footer";
-import { HeroSection } from "../components/HeroSection";
-import { KeyFeatures } from "../components/KeyFeatures";
-import { Navbar } from "../components/Navigation";
-import { Testimonial } from "../components/Testimonial";
-import { Companies } from "../components/Companies";
+import { Footer } from "../components/ui/Footer";
+import { HeroSection } from "../components/ui/HeroSection";
+import { KeyFeatures } from "../components/ui/KeyFeatures";
+import { Navbar } from "../components/ui/Navigation";
+import { Testimonial } from "../components/ui/Testimonial";
+import { Companies } from "../components/ui/Companies";
 
 const LandingPage = () => {
   return (

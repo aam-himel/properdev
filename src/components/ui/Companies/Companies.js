@@ -1,8 +1,8 @@
 import React from "react";
-import googleIcon from "../../assets/icons/google.svg";
-import slackIcon from "../../assets/icons/slack.svg";
-import uberIcon from "../../assets/icons/uber.svg";
-import samsungIcon from "../../assets/icons/samsung.svg";
+import googleIcon from "../../../assets/icons/google.svg";
+import slackIcon from "../../../assets/icons/slack.svg";
+import uberIcon from "../../../assets/icons/uber.svg";
+import samsungIcon from "../../../assets/icons/samsung.svg";
 import "./Companies.css";
 
 const Companies = () => {

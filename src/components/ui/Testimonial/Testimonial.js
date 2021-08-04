@@ -1,6 +1,6 @@
 import React from "react";
-import manImg from "../../assets/img/man.jpg";
-import quoteImg from "../../assets/img/quote.svg";
+import manImg from "../../../assets/img/man.jpg";
+import quoteImg from "../../../assets/img/quote.svg";
 import "./Testimonial.css";
 
 const Testimonial = () => {
@@ -26,7 +26,7 @@ const Testimonial = () => {
           alt="quote"
           className="h-48 transform rotate-180 col-span-1 my-40 opacity-10"
         ></img>
-        <div className="slider-right"></div>
+        <div className="slider-right hover:bg-blue-600 cursor-pointer"></div>
       </div>
     </section>
   );

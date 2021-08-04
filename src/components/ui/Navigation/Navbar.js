@@ -2,7 +2,7 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import Logo from "../../assets/img/logo_test.svg";
+import Logo from "../../../assets/img/logo_test.svg";
 const navigation = [
   { name: "Why Us", href: "#" },
   { name: "Features", href: "#" },
