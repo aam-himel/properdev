@@ -1,4 +1,5 @@
 import React from "react";
+import heroImg from "../../../assets/img/hero-img.svg";
 import CareerProgress from "../../../assets/img/undraw_career_progress_ivdb.svg";
 
 import "./Hero.css";
@@ -37,8 +38,10 @@ const HeroSection = () => {
         </div>
 
         {/*  Hero Left */}
-
         {/* <div className="bg-hero-img h-screen w-full bg-cover bg-center rounded "></div> */}
+        <div className="w-full h-screen">
+          <img src={heroImg} alt="hero " />
+        </div>
       </section>
     </>
   );
